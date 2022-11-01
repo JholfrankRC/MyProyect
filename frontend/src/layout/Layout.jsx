@@ -17,10 +17,7 @@ const Layout = () => {
         {/* {Contenido central} */}
 
         <div className='main'>
-          <p>hola cachon</p>
-
             <Outlet/>
-
         </div>
 
         {/* {Fin de contenido Central} */}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import '../assets/css/navee.css'
 
 
 const Navegacion = () => {
@@ -8,19 +9,22 @@ const Navegacion = () => {
 
     
       <div>
-        <NavLink to='/'>
+        <NavLink to='/'
+        className='link3'>
           Login
         </NavLink>
       </div>
 
       <div>
-        <NavLink to='/Acerca-de'>
+        <NavLink to='/Acerca-de'
+        className='link3'>
           Acerca de nosotros
         </NavLink>
       </div>
 
       <div>
-        <NavLink to='/Contacto'>
+        <NavLink to='/Contacto'
+        className='link3'>
           Contactanos
         </NavLink>
       </div>
