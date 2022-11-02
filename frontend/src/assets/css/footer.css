@@ -9,16 +9,13 @@ body{
 
 }
 
-.navegacion{
+.footer{
     background-color: rgb(255, 255, 255);
     width: 90%;
+    height: 150px;
     margin: auto;
     padding: 2em 1em;
+    margin-top: 5em;
     text-align: center;
 }
 
-.link3{
-   text-decoration: none;
-   margin-left: 10px;
-   
-}

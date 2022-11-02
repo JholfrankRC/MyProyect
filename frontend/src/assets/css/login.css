@@ -24,6 +24,7 @@ body{
     border-radius: 10px;
     box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
     text-align: center;
+    margin-top: 3em;
 }
 
 .form_title{
@@ -35,14 +36,20 @@ body{
     font-weight: 300;
 }
 
-.link{
+.lentra{
     font-weight: 400;
     color: #000;
 }
-.link2{
+
+.form-olvide{
+    margin-top: 5px;
+}
+
+.lolvide{
     font-weight: 400;
     color: #000;
-    text-decoration: none;
+    margin-left: 70%;
+   
 }
 
 
@@ -50,6 +57,13 @@ body{
     margin-top: 3em;
     display: grid;
     gap: 2.5em;
+}
+
+.container-submit{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+
 }
 
 .form_group{

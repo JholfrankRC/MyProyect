@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import '../assets/css/login.css'
 
 const Login = () => {
   return (
@@ -7,7 +8,7 @@ const Login = () => {
 
       <form className='formulary'>
           <h2 className='form_title'>Iniciar sesion</h2>
-          <p className='form_reg'>¿Aun no tienes cuenta? <NavLink to='/Registro' className='link'>Entra aqui</NavLink></p>
+          <p className='form_reg'>¿Aun no tienes cuenta? <NavLink to='/Registro' className='lentra'>Entra aqui</NavLink></p>
 
       <div className="form_container">
 
@@ -21,10 +22,16 @@ const Login = () => {
           <input type="text" id='password' className='form_input' placeholder=' '/>
           <label form='password' className='form_label'>Contraseña:</label>
           <span className='form_line'></span>
-          <NavLink to='/olvide-clave' className='link2'>Olvide clave</NavLink>
         </div> 
-        
-          <input type="submit" className='form_submit' value='Entrar'/>
+      </div>
+
+      <div className='form-olvide'>
+
+      </div>
+        <NavLink to='/olvide-clave' className='lolvide'>Olvide clave</NavLink>
+
+      <div className='container-submit'>
+            <input type="submit" className='form_submit' value='Entrar'/>
       </div>
 
       </form>

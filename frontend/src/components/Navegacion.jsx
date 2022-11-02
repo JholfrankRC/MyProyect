@@ -7,28 +7,34 @@ const Navegacion = () => {
   return (
     <div className='navegacion'>
 
-    
-      <div>
+<div className='logo'>
+ 
+</div>
+
+    <nav>
+
+      
         <NavLink to='/'
         className='link3'>
           Login
         </NavLink>
-      </div>
+      
 
-      <div>
+     
         <NavLink to='/Acerca-de'
         className='link3'>
           Acerca de nosotros
         </NavLink>
-      </div>
+      
 
-      <div>
+      
         <NavLink to='/Contacto'
         className='link3'>
           Contactanos
         </NavLink>
-      </div>
+     
 
+    </nav>
 
 
     </div>
